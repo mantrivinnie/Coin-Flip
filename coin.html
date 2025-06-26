@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Flip Online</title>
+    <link rel="stylesheet" href="coin.css">
+    <link rel="shortcut icon" href="coin favicon.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--centre and main div ____START-->
+    <div id="coinDiv1">
+        <div class="coin">
+          <div class="coinH">           <!--coin img -->
+            <img class="coinH" src="heads.jpg" alt="img">
+          </div> 
+ 
+          <div class="coinT">           <!--coin img -->
+            <img class="coinT" src="tails.jpg" alt="img">
+          </div> 
+        </div>
+
+        <div class="cResult">            <!--Toss Result-->
+           <p>Heads v/s Tails</p>
+        </div>
+
+        <div class="stats">
+            <p id="headCount"> Heads : 0</p>
+            <p id="tailCount"> Tails : 0</p>
+        </div>
+    </div>
+    <!--centre and main div ____END-->
+
+
+    <!--Total no. of flips ____START-->
+    <div id="coinDiv2">
+        <p id="totalFlips">Total Flips: 0</p>
+
+    </div>
+    <!--Total no. of flips ____END-->
+
+
+    <!--Flip coin button ____START-->
+    <div id="coinDiv3">
+        <button class="flip" type="reset" >
+            flip the coin
+        </button>
+    </div>
+    
+    <!--Flip coin button ____END-->
+
+    <!--reset coin button ____START-->
+    <div id="coinDiv4">
+        <button class="reset" type="reset" >
+            Reset
+        </button>
+    </div>
+    <!--reset coin button ____END-->
+
+ <script src="coin.js"></script>   
+</body>
+</html>
